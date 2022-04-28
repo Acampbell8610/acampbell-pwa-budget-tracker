@@ -11,7 +11,7 @@ new WebpackPwaManifest({
     fingerprints: false,
     inject: false,
     icons: [{
-      src: path.resolve("/public/icons/icon-512x512.png"),
+      src: path.resolve("./public/icons/icon-512x512.png"),
       sizes: [96, 128, 192, 256, 384, 512],
       destination: path.join("public", "icons")
     }]
